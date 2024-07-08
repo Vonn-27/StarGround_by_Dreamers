@@ -1,0 +1,136 @@
+/* General body styles */
+body {
+    font-family: 'Aldrich', sans-serif;
+    background: url('gambar/background.png') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the whole layout */
+.container {
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Adding a black overlay for better readability */
+    box-sizing: border-box;
+    position: relative; /* Add relative positioning to the container */
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+    border-bottom: 1px solid #444;
+}
+
+/* Logo section */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Main content area */
+main {
+    display: flex;
+    flex-direction: column; /* Change to column to stack search bar and content */
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Search bar */
+.search-bar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-bar input[type="search"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-bar button:hover {
+    background-color: #666;
+}
+
+/* Recommendation section */
+.recommendations {
+    width: 80%;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+}
+
+/* Content area */
+.content {
+    width: 80%;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.content p,
+.content ul {
+    margin: 10px 0;
+}
+
+.content ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin: 10px 0;
+}

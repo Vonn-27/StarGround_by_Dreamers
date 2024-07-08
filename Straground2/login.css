@@ -1,0 +1,102 @@
+/* General body styles */
+body {
+    font-family: 'Aldrich', sans-serif;
+    background: url('gambar/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login box */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Adding a black overlay for better readability */
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Logo section */
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* User icon */
+.user-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.user-icon img {
+    height: 50px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #666;
+}
+
+/* Links section */
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

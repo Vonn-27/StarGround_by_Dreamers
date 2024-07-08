@@ -1,0 +1,154 @@
+/* General body styles */
+body {
+    font-family: 'Aldrich', sans-serif;
+    background: url('gambar/background.png') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the whole layout */
+.container {
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Adding a black overlay for better readability */
+    box-sizing: border-box;
+    position: relative; /* Add relative positioning to the container */
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+    border-bottom: 1px solid #444;
+}
+
+/* Logo section */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Main content area */
+main {
+    display: flex;
+    padding: 40px 20px;
+    min-height: calc(100vh - 80px); /* Adjust the height */
+}
+
+/* Sidebar for categories */
+.sidebar {
+    width: 20%;
+    background-color: #222;
+    padding: 20px;
+    border-right: 1px solid #444;
+    border-radius: 10px 0 0 10px; /* Rounded corners for the sidebar */
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #333;
+}
+
+/* Content area */
+.content {
+    width: 75%;
+    margin-left: 5%;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control, .form-control-file, .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-control-file {
+    padding: 3px;
+    background-color: transparent;
+}
+
+.form-control:focus, .btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #5a6268;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Additional styles for dark theme and black text in textarea */
+.ck-editor__editable_inline {
+    background: #333;
+    color: black; /* Set text color to black */
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stra Ground</title>
+    <link rel="stylesheet" href="kondisi.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logo" href="awal.html"">
+                
+                <img src="gambar/logo.png" alt="Logo">
+                <h1>Stra Ground</h1>
+            </a>
+            <nav>
+                <a href="dashboard_user.php">Dashboard</a>
+                <a href="senjata.php">Senjata</a>
+                <a href="lokasi.php">Lokasi</a>
+                <a href="kondisi.html">Kondisi</a>
+                <a href="strategi.html">Strategi</a>
+            </nav>
+        </header>
+        <main>
+            <div class="search-bar">
+                <input type="search" id="userInput" placeholder="Jelaskan Kondisi Anda">
+                <button onclick="sendMessage()">Cari</button>
+            </div>
+            <section class="content">
+                <h2>Solusi Kondisi anda</h2>
+                <p></p>
+            </section>
+        </main>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

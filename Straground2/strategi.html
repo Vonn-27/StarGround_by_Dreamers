@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stra Ground</title>
+    <link rel="stylesheet" href="strategi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logo" href="awal.html"">
+                
+                <img src="gambar/logo.png" alt="Logo">
+                <h1>Stra Ground</h1>
+            </a>
+            <nav>
+                    <a href="dashboard_user.php">Dashboard</a>
+                <a href="senjata.php">Senjata</a>
+                <a href="lokasi.php">Lokasi</a>
+                <a href="kondisi.html">Kondisi</a>
+                <a href="strategi.html">Strategi</a>
+            </nav>
+        </header>
+        <main>
+            <section class="msger">
+                <header class="msger-header">
+                    <div class="msger-header-title">
+                        <i class="fas fa-comment-alt"></i> Straground AI
+                    </div>
+                </header>
+                <main class="msger-chat" id="chatboxMessages">
+                    <!-- Messages will be loaded here -->
+                </main>
+                <form class="msger-inputarea" id="msgerInputArea">
+                    <input type="text" class="msger-input" id="userInput" placeholder="Enter your message...">
+                    <button type="submit" class="msger-send-btn">Send</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
